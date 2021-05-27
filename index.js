@@ -312,18 +312,13 @@ function iterator(b, iter, title){
 
 //about zoom
 function aboutZoom(active){
-    var about = document.querySelector(".greeting_info");
     var button = document.querySelector(".greeting .button_wrapper");
 
     if(active){
-        about.style.opacity = "1";
-        about.style.transform = "translateX(0)";
         button.style.opacity = "1";
         button.style.transform = "translateX(0)";
     }
     else{
-        about.style.opacity = "0.5";
-        about.style.transform = "translateX(-100px)";
         button.style.opacity = "0.5";
         button.style.transform = "translateX(50px)";
     }
@@ -336,7 +331,6 @@ function testimonialSlide(active){
 
     if(active){
         text.style.opacity = "1";
-        text.style.transform = "translateX(0)";
     }
 }
 

@@ -2,7 +2,6 @@
     $fullName = $_POST['fullName'];
     $email = $_POST['email'];
     $question = $_POST['question'];
-
     //database connection
     $conn = new mysqli('localhost', 'root', '', 'portfolio_form');
     if($conn->connect_error){
