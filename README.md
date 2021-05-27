@@ -1,3 +1,3 @@
 # Portfolio
-## mple portfolio website
+## Example portfolio website
 Note: only works on chrome
