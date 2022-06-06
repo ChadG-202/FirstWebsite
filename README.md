@@ -1,4 +1,2 @@
 # Portfolio
-## Example portfolio website
-### Working progress
-Note: only works on chrome
+Works best on chrome
